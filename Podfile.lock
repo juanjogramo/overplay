@@ -1,0 +1,21 @@
+PODS:
+  - VideoPlayerContainer (1.0.0)
+
+DEPENDENCIES:
+  - VideoPlayerContainer (from `https://github.com/shayanbo/VideoPlayerContainer.git`)
+
+EXTERNAL SOURCES:
+  VideoPlayerContainer:
+    :git: https://github.com/shayanbo/VideoPlayerContainer.git
+
+CHECKOUT OPTIONS:
+  VideoPlayerContainer:
+    :commit: c67b4754daef7c0e20cd64a499612602cbb57a84
+    :git: https://github.com/shayanbo/VideoPlayerContainer.git
+
+SPEC CHECKSUMS:
+  VideoPlayerContainer: b6210293cbac5fe3d690ed52d8389303377ade47
+
+PODFILE CHECKSUM: 783ffc694a322f81581d11f21365ca9edf28e83b
+
+COCOAPODS: 1.15.2
