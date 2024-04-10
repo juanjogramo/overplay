@@ -7,22 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310BF11F2BC5A91400E760E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BF11E2BC5A91400E760E5 /* Constants.swift */; };
+		310BF1212BC5CACA00E760E5 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BF1202BC5CACA00E760E5 /* VideoPlayerView.swift */; };
+		310BF1262BC5D06000E760E5 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BF1252BC5D06000E760E5 /* VideoPlayerViewModel.swift */; };
 		310D5E482BC4B08900524CF4 /* OverplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D5E472BC4B08900524CF4 /* OverplayApp.swift */; };
 		310D5E4A2BC4B08900524CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D5E492BC4B08900524CF4 /* ContentView.swift */; };
 		310D5E4C2BC4B08B00524CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D5E4B2BC4B08B00524CF4 /* Assets.xcassets */; };
 		310D5E4F2BC4B08B00524CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310D5E4E2BC4B08B00524CF4 /* Preview Assets.xcassets */; };
-		7F8EF8DD295F5D6752ACD7B4 /* Pods_Overplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4723857F1323467F5E3A92D7 /* Pods_Overplay.framework */; };
+		3110B1512BC5F8E300D8E37E /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110B1502BC5F8E300D8E37E /* UIDevice+Extension.swift */; };
+		3110B1532BC5F93000D8E37E /* DeviceShakeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3110B1522BC5F92F00D8E37E /* DeviceShakeViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310BF11E2BC5A91400E760E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		310BF1202BC5CACA00E760E5 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		310BF1222BC5CB6F00E760E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		310BF1252BC5D06000E760E5 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
 		310D5E442BC4B08900524CF4 /* Overplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		310D5E472BC4B08900524CF4 /* OverplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverplayApp.swift; sourceTree = "<group>"; };
 		310D5E492BC4B08900524CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		310D5E4B2BC4B08B00524CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		310D5E4E2BC4B08B00524CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4723857F1323467F5E3A92D7 /* Pods_Overplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Overplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A460EEEF5E49FFA0E6BA60B /* Pods-Overplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overplay.release.xcconfig"; path = "Target Support Files/Pods-Overplay/Pods-Overplay.release.xcconfig"; sourceTree = "<group>"; };
-		9A04DF21B1C00C8E97E8290A /* Pods-Overplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Overplay.debug.xcconfig"; path = "Target Support Files/Pods-Overplay/Pods-Overplay.debug.xcconfig"; sourceTree = "<group>"; };
+		3110B1502BC5F8E300D8E37E /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		3110B1522BC5F92F00D8E37E /* DeviceShakeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceShakeViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8EF8DD295F5D6752ACD7B4 /* Pods_Overplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +48,6 @@
 			children = (
 				310D5E462BC4B08900524CF4 /* Overplay */,
 				310D5E452BC4B08900524CF4 /* Products */,
-				C584940797AA7BEA930C66A2 /* Pods */,
-				E234CB9EA9631AE29235B30F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +62,11 @@
 		310D5E462BC4B08900524CF4 /* Overplay */ = {
 			isa = PBXGroup;
 			children = (
+				31647B7E2BC6EC1000DFEDD3 /* ViewModels */,
+				31647B7D2BC6EC0600DFEDD3 /* Utils */,
+				31647B7C2BC6EBFA00DFEDD3 /* Views */,
+				310BF1222BC5CB6F00E760E5 /* Info.plist */,
 				310D5E472BC4B08900524CF4 /* OverplayApp.swift */,
-				310D5E492BC4B08900524CF4 /* ContentView.swift */,
 				310D5E4B2BC4B08B00524CF4 /* Assets.xcassets */,
 				310D5E4D2BC4B08B00524CF4 /* Preview Content */,
 			);
@@ -74,21 +81,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C584940797AA7BEA930C66A2 /* Pods */ = {
+		31647B7C2BC6EBFA00DFEDD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9A04DF21B1C00C8E97E8290A /* Pods-Overplay.debug.xcconfig */,
-				4A460EEEF5E49FFA0E6BA60B /* Pods-Overplay.release.xcconfig */,
+				310D5E492BC4B08900524CF4 /* ContentView.swift */,
+				310BF1202BC5CACA00E760E5 /* VideoPlayerView.swift */,
 			);
-			path = Pods;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		E234CB9EA9631AE29235B30F /* Frameworks */ = {
+		31647B7D2BC6EC0600DFEDD3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				4723857F1323467F5E3A92D7 /* Pods_Overplay.framework */,
+				310BF11E2BC5A91400E760E5 /* Constants.swift */,
+				3110B1502BC5F8E300D8E37E /* UIDevice+Extension.swift */,
+				3110B1522BC5F92F00D8E37E /* DeviceShakeViewModifier.swift */,
 			);
-			name = Frameworks;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		31647B7E2BC6EC1000DFEDD3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				310BF1252BC5D06000E760E5 /* VideoPlayerViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +115,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 310D5E522BC4B08B00524CF4 /* Build configuration list for PBXNativeTarget "Overplay" */;
 			buildPhases = (
-				E6BA1052494FB756118EDD62 /* [CP] Check Pods Manifest.lock */,
 				310D5E402BC4B08900524CF4 /* Sources */,
 				310D5E412BC4B08900524CF4 /* Frameworks */,
 				310D5E422BC4B08900524CF4 /* Resources */,
-				05B17F51BE861FB0976ED825 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,55 +173,18 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		05B17F51BE861FB0976ED825 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Overplay/Pods-Overplay-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6BA1052494FB756118EDD62 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Overplay-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		310D5E402BC4B08900524CF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3110B1532BC5F93000D8E37E /* DeviceShakeViewModifier.swift in Sources */,
 				310D5E4A2BC4B08900524CF4 /* ContentView.swift in Sources */,
+				3110B1512BC5F8E300D8E37E /* UIDevice+Extension.swift in Sources */,
 				310D5E482BC4B08900524CF4 /* OverplayApp.swift in Sources */,
+				310BF1262BC5D06000E760E5 /* VideoPlayerViewModel.swift in Sources */,
+				310BF11F2BC5A91400E760E5 /* Constants.swift in Sources */,
+				310BF1212BC5CACA00E760E5 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +312,6 @@
 		};
 		310D5E532BC4B08B00524CF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A04DF21B1C00C8E97E8290A /* Pods-Overplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +322,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overplay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -365,7 +343,6 @@
 		};
 		310D5E542BC4B08B00524CF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A460EEEF5E49FFA0E6BA60B /* Pods-Overplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -376,6 +353,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Overplay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
